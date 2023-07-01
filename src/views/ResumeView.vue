@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <u><p class="text-center h1">EDUCATION AND EXPERIENCE</p></u>
         <div class="cards d-flex justify-content-center edu-flex">
             <div class="card m-5" style="width: 18rem;">
@@ -29,15 +30,15 @@
         </div>
         <u><p class="text-center h1">SKILLS</p></u>
         <div class="skills d-flex flex-column align-items-center">
-          <img src="https://i.postimg.cc/MG6j56Sc/css.png" class="imgH" alt="CSS">
+          <img src="https://i.postimg.cc/SQH2308K/html-png.png" class="imgH" alt="CSS">
           <div class="progress w-75 mt-5">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">average</div>
           </div>
-          <img src="" class="imgC" alt="CSS">
+          <img src="https://i.postimg.cc/MG6j56Sc/css.png" class="imgC" alt="CSS">
           <div class="progress w-75 mt-5">
             <div class="progress-bar bg-gradient" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
           </div>
-          <img src="" class="imgJ" alt="CSS">
+          <img src="https://i.postimg.cc/cLPd4ZxK/js-removebg-preview.png" class="imgJ" alt="CSS">
           <div class="progress w-75 mt-5">
             <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">20%</div>
           </div>

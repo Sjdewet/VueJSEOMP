@@ -45,8 +45,108 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+    
   }
 
-  .h1{
+  #h1{
     text-align: center;
   }
+  .navbar{
+    background-color: #013a63;
+
+  }
+  .navbar-brand{
+    background-color: #013a63;
+  }
+
+  .container-fluid{
+    background-color: #013a63;
+    width: 100%;
+    height: 4rem;
+  }
+
+  body{
+    background-color: #61a5c2;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
+
+.navbar__logo{
+    width: 6rem;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.cards-1{
+    margin: 3rem;
+    border-color: black;
+    margin: 0 auto;
+}
+
+.img{
+    width: 18rem;
+    border: none;
+    background-color: gray;
+}
+
+.imgB{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.imgG{
+    height: 5rem;
+    margin-top: 5rem ;
+}
+.imgC{
+    width: 10rem;
+    height: 12rem;
+    margin-top: 2.5rem ;
+}
+.imgH{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 2.5rem ;
+}
+
+.imgJ{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 2.5rem ;
+}
+
+li > a:hover{
+    background-color: gray;
+    padding:1rem;
+    border-radius: 99999px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+#img{
+    width: 100%;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .edu-flex{
+        flex-direction: column;
+    }
+
+    .skills-flex{
+        flex-direction: column;
+        margin-inline: 7rem;
+        margin-bottom: 2rem;
+    }
+}
+

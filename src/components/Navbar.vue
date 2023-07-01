@@ -21,13 +21,13 @@
                 <router-link class="p-3 text-decoration-none nav-link" to="/about">About</router-link>
             </li>
             <li class="nav-item">
-                <router-link class="p-3 text-decoration-none nav-link" to="/products">Educaation and Experience</router-link>
+                <router-link class="p-3 text-decoration-none nav-link" to="/resume">Resume</router-link>
             </li>
             <li class="nav-item">
-                <router-link class="p-3 text-decoration-none nav-link" to="/products">Projects</router-link>
+                <router-link class="p-3 text-decoration-none nav-link" to="/projects">Projects</router-link>
             </li>
             <li class="nav-item">
-                <router-link class="p-3 text-decoration-none nav-link" to="/contact">Testimonials</router-link>
+                <router-link class="p-3 text-decoration-none nav-link" to="/testimonials">Testimonials</router-link>
             </li>
             <li class="nav-item">
                 <router-link class="p-3 text-decoration-none nav-link" to="/contact">Contact Me</router-link>

@@ -20,9 +20,6 @@
     height: 4rem;
   }
 
-  body{
-    background-color: #61a5c2;
-  }
 
 
 .navbar__logo{
@@ -114,6 +111,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 .waviy {
   position: relative;
@@ -147,8 +145,13 @@ body {
   color: #013a63;
 }
 
-.container{
+/* .container{
 width: 60vh;
+} */
+
+footer {
+    background-color: #151719;
+    color: white;
 }
 
 

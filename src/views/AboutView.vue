@@ -1,38 +1,28 @@
 <template>
-  <div>
+  <div class=" mt-5">
     <br>
-    <div class="about">
+    <div class="about container" >
       
-      <h1 class="text">ABOUT <span>ME</span></h1>
-      <br>
-      <p class="text">My name is Summer De Wet.</p>
-  
-      <p class="text">My home language is english.</p>
-      
-      <p class="text">Age: 18</p>
-      
-      <p class="text">Phone : 0813212836</p>
-      
-      <p class="text">Date of Birth: 25/11/2004</p>
-      
-      <p class="text">Address: Southfield</p>
-      
-      <p class="text">Email: summerdewet@gmail.com</p>
-      
-      <p class="text">My hobbies include reading, writing poetry</p>
-      
-      <p class="text">baking, playing soccer and assisting my father</p>
-      
-      <p class="text">in taking apart and rebuilding laptops as well as designing websites.</p>
-      
-      <p class="text">My skills include communication, teamwork, problem solving,</p>
-      
-      <p class="text">time management, decision making, Bootstrap, HTML and CSS.</p>
-    </div>
+      <h1 class="text mb-2">ABOUT <span>ME</span></h1>
+      <img src="https://i.postimg.cc/pV7q3cfM/wd-removebg-preview.png" alt="web" width="250" height="150">
+      <p class="paragraph">
+        Hello, My name is Summer De Wet , i am 18 years old. <br>
+        My hobbies include reading, writing poetry, baking, playing soccer <br>and assisting my father in taking apart and rebuilding laptops as well as designing websites. <br>
+        My skills include communication, teamwork, problem solving,
+        time management,<br> decision making, Bootstrap, HTML and CSS, Javascript and Vue.</p>
+       <p class="paragraph">Phone : 0813212836</p>
+       <p class="paragraph">Date of Birth: 25/11/2004</p>
+       <p class="paragraph">Address: Southfield</p>
+       <p class="paragraph">Email: summerdewet@gmail.com</p>
+    
      </div>
+    </div>
 </template>
 <style scoped>
 span{
   color:#013a63 ;
+}
+.paragraph{
+  color: white;
 }
 </style>

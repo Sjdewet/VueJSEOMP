@@ -3,7 +3,9 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     skills: [],
-    education: []
+    education: [],
+    projects: [],
+    testimonials: []
   },
   getters: {
   },
@@ -13,6 +15,12 @@ export default createStore({
     },
     setEducation(state, education){
       state.education = education
+    },
+    setProjects(state, projects){
+      state.projects = projects
+    },
+    setTestimonials(state, testimonials){
+      state.testimonials = testimonials
     }
   },
   actions: {
@@ -35,7 +43,28 @@ export default createStore({
         console.log(error);
       }
 
+    },
+    async fetchProjects(context){
+      try {
+        let res = await fetch('https://sjdewet.github.io/JsonServerEOMP/index.json')
+        let {projects} = await res.json()
+        context.commit("setProjects", projects)
+      } catch (error) {
+        console.log(error);
+      }
+
+    },
+    async fetchTestimonials(context){
+      try {
+        let res = await fetch('https://sjdewet.github.io/JsonServerEOMP/index.json')
+        let {testimonials} = await res.json()
+        context.commit("setTestimonials", testimonials)
+      } catch (error) {
+        console.log(error);
+      }
+
     }
+
 
   },
   modules: {

@@ -8,10 +8,11 @@
   import Footer from '@/components/Footer.vue'
   
   export default{
-  
+    components:{
     Navbar, 
-    Footer,
-    components:{Navbar}
+    Footer
+    }
+    
   }
   </script>
   <style>

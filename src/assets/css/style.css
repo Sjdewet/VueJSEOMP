@@ -36,38 +36,6 @@ body{
     margin: 0 auto;
 }
 
-.img{
-    width: 18rem;
-    border: none;
-    background-color: gray;
-}
-
-.imgB{
-    width: 10rem;
-    height: 10rem;
-    margin-top: 5rem;
-}
-
-.imgG{
-    height: 5rem;
-    margin-top: 5rem ;
-}
-.imgC{
-    width: 10rem;
-    height: 12rem;
-    margin-top: 2.5rem ;
-}
-.imgH{
-    width: 13rem;
-    height: 13rem;
-    margin-top: 2.5rem ;
-}
-
-.imgJ{
-    width: 13rem;
-    height: 13rem;
-    margin-top: 2.5rem ;
-}
 
 li > a:hover{
     background-color: gray;
@@ -80,7 +48,8 @@ li > a:hover{
 }
 
 #img{
-    width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 
@@ -124,7 +93,7 @@ body {
   display: inline-block;
   color: #fff;
   text-transform: uppercase;
-  animation: waviy 1s infinite;
+  animation: waviy 2s infinite;
   animation-delay: calc(.1s * var(--i));
   
 }
@@ -155,4 +124,3 @@ footer {
 }
 
 
-/* about page css */

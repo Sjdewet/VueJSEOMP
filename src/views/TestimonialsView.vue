@@ -4,12 +4,12 @@
             <div class="row gap-2">
                 <h1 style="padding-top:3rem;" class="text">Testimonials</h1>
                 <div class="" v-for="data in testimonials" :key="data.ID">
-       <div class="card" style="border:3px solid black;">
+       <div class="card cardTest" style="border:3px solid black;">
            <div class="row">
-               <div class="col-4">
+               <div class="col-12 col-md-4">
                    <img :src="data.image" style="width:12rem; margin-top:1rem;margin-bottom:1rem;" class="card-img-top" loading="lazy">
                </div>
-               <div class="col-8">
+               <div class="col-12 col-md-8">
                    <div class="card-body">
                    <h5>{{data.Name}}</h5>
                    <p>{{data.test}}</p>
@@ -40,7 +40,7 @@
 .text{
     color: white;
 }
-.card {
+.cardTest {
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 6px 10px rgba(119, 34, 34, 0.08), 0 0 6px rgba(0, 0, 0, .05);

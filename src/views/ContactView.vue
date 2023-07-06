@@ -25,6 +25,7 @@
           <div class="btns d-flex justify-content-between">
             <button class="formButton mt-3 butn1" type="reset">Clear</button>
             <button class="formButton mt-3 butn2" type="submit">Send</button>
+            
           </div>
       </div>
 

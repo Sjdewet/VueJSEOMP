@@ -1,4 +1,5 @@
 <template>
+ 
   <div class="contact mt-5">
     <h4 class="h4">CONTACT ME</h4>
     <form action="https://formspree.io/f/xyyaonqq" method="POST">
@@ -31,6 +32,8 @@
 
     </form>
   </div>
+ 
+
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
   <div class=" mt-5">
     <br>
-    <div class="about container" >
+    <div class="about container" v-motion-pop>
       
       <h1 class="text mb-2">ABOUT <span>ME</span></h1>
       <img src="https://i.postimg.cc/pV7q3cfM/wd-removebg-preview.png" alt="web" width="250" height="150" class="image2">

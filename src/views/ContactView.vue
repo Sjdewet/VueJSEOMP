@@ -1,9 +1,9 @@
 <template>
  
   <div class="contact mt-5">
-    <h4 class="h4">CONTACT ME</h4>
-    <form action="https://formspree.io/f/xyyaonqq" method="POST">
+  
       <div class="container contactForm">
+        <form action="https://formspree.io/f/xyyaonqq" method="POST" class="form">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label text-white">First Name:</label>
             <input type="First Name" name="FirstName" class="form-control" id="exampleFormControlInput1"
@@ -28,9 +28,9 @@
             <button class="formButton mt-3 butn2" type="submit">Send</button>
             
           </div>
+        </form>
       </div>
 
-    </form>
   </div>
  
 
@@ -62,5 +62,18 @@ export default {
 
 .butn2{
   width: 15%;
+}
+
+@media only screen and (max-width: 420px){
+  .contact {
+    width: 17rem !important;
+  }
+  .form {
+    margin: 1rem !important;
+  }
+
+  button{
+    width: 3rem !important;
+  }
 }
 </style>

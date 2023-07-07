@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="mt-5 container " style="width: 50rem;">
+        <div class="mt-5 container " style="width: 50rem;" v-motion-pop>
             <div class="row gap-2">
-                <h1 style="padding-top:3rem;" class="text">Testimonials</h1>
+            <h1 style="padding-top:3rem;" class="text">Testimonials</h1>
                 <div class="" v-for="data in testimonials" :key="data.ID">
        <div class="card cardTest" style="border:3px solid black;">
            <div class="row">
